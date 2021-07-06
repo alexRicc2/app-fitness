@@ -1,0 +1,44 @@
+.navBarTopo{
+    background-color: $primary-color;
+}
+.barraTopo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1rem 1rem 1rem;
+
+    &__item{
+        display: flex;
+    }
+    
+    .itemCampo{
+        width: 200px;
+        height: $size;
+    }
+}
+.icone{
+    fill: $second-color;
+}
+.campoPesquisa{
+    background-color: $second-color;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+
+    input{
+        border: none;
+        background-color: $second-color;
+        border-radius: 20px;
+        width: 100%;
+    }
+    .icone{
+        fill: $primary-color;
+    }
+}
+
+.fotoPerfil{
+    background-color: $second-color;
+    border-radius: 100%;
+    width: $size;
+    height: $size;
+}

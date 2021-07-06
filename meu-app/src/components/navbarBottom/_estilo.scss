@@ -1,0 +1,10 @@
+.navbarBottom{
+    display: flex;
+    justify-content: space-around;
+
+    &__icones{
+        fill: $primary-color;
+        width: $bottom-icons;
+        height: $bottom-icons;
+    }
+}

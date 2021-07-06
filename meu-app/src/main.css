@@ -1,0 +1,89 @@
+.navBarTopo {
+  background-color: #f95739;
+}
+
+.barraTopo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .5rem 1rem 1rem 1rem;
+}
+
+.barraTopo__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.barraTopo .itemCampo {
+  width: 200px;
+  height: 24px;
+}
+
+.icone {
+  fill: #fff;
+}
+
+.campoPesquisa {
+  background-color: #fff;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.campoPesquisa input {
+  border: none;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.campoPesquisa .icone {
+  fill: #f95739;
+}
+
+.fotoPerfil {
+  background-color: #fff;
+  border-radius: 100%;
+  width: 24px;
+  height: 24px;
+}
+
+.barraLista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: #fff;
+  padding-bottom: .5rem;
+}
+
+.ativo {
+  border-bottom: 2px solid #fff;
+}
+
+.navbarBottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.navbarBottom__icones {
+  fill: #f95739;
+  width: 32px;
+  height: 32px;
+}
+/*# sourceMappingURL=main.css.map */
