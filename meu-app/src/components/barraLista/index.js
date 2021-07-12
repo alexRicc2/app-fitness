@@ -8,13 +8,13 @@ function BarraLista(props){
         <ul className="barraLista">
             {
             opcoes.map((nome, index) =>{
-                if(index == props.ativo){
+                if(index === props.ativo){
                     return(
-                        <li className="ativo">{nome}</li>
+                        <li className="ativo" key={index}>{nome}</li>
                     )}
                 else{
                     return(
-                        <li>{nome}</li>
+                        <li key={index}>{nome}</li>
                     )
                 }
 
