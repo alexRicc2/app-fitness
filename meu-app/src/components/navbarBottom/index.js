@@ -7,7 +7,7 @@ import {ReactComponent as Person} from "../../images/person.svg";
 function NavBarBottom(){
     
         return ( 
-            <nav>
+            <nav className="navBottom">
                 <ul className="navbarBottom">
                     <li>
                         <Shop className="navbarBottom__icones"/>

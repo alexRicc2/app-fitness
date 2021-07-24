@@ -1,5 +1,9 @@
 .navBarTopo{
     background-color: $primary-color;
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 1;
 }
 .barraTopo{
     display: flex;

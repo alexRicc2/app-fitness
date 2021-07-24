@@ -8,7 +8,7 @@ function BarraLista(props){
         <ul className="barraLista">
             {
             opcoes.map((nome, index) =>{
-                if(index == props.ativo){
+                if(index === props.ativo){
                     return(
                         <li className="ativo">{nome}</li>
                     )}

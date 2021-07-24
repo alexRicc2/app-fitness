@@ -1,5 +1,9 @@
 .navBarTopo {
-  background-color: #f95739;
+  background-color: #095739;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
 }
 
 .barraTopo {
@@ -49,7 +53,7 @@
 }
 
 .campoPesquisa .icone {
-  fill: #f95739;
+  fill: #095739;
 }
 
 .fotoPerfil {
@@ -73,16 +77,68 @@
   border-bottom: 2px solid #fff;
 }
 
+.post {
+  background-color: #ccc;
+  width: calc(100% - 32px);
+  margin: 16px auto 0 auto;
+  height: 200px;
+  position: relative;
+}
+
+.post__foto {
+  width: 30px;
+  height: 30px;
+}
+
+.post__coracao {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+}
+
+.post__coracao svg {
+  fill: #095739;
+}
+
+.post__favorites {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+}
+
+.post__comentarios {
+  position: absolute;
+  right: 16px;
+  bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #095739;
+}
+
+.post__comentarios svg {
+  fill: #095739;
+}
+
+.navBottom {
+  position: fixed;
+  top: calc(100% - 36px);
+  width: 100%;
+  z-index: 1;
+}
+
 .navbarBottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  background-color: #fff;
+  padding-top: 4px;
 }
 
 .navbarBottom__icones {
-  fill: #f95739;
+  fill: #095739;
   width: 32px;
   height: 32px;
 }

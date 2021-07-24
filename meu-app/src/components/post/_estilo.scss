@@ -1,0 +1,36 @@
+.post{
+  background-color: #ccc;
+  width: calc(100% - 32px);
+  margin: 16px auto 0 auto;
+  height: 200px;
+  position: relative;
+  
+  &__foto{
+    width: 30px;
+    height: 30px;
+  }
+
+  &__coracao{
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    svg{
+      fill: $primary-color;
+    }
+  }
+  &__favorites{
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+  }
+  &__comentarios{
+    position: absolute;
+    right: 16px;
+    bottom: 10px;
+    display: flex;
+    color: $primary-color;
+    svg{
+      fill: $primary-color;
+    }
+  }
+}
