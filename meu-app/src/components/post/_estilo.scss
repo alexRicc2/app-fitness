@@ -1,36 +1,48 @@
 .post{
-  background-color: #ccc;
+  display: flex;
+  flex-direction: column;
   width: calc(100% - 32px);
   margin: 16px auto 0 auto;
-  height: 200px;
-  position: relative;
   
-  &__foto{
-    width: 30px;
-    height: 30px;
-  }
+  &__imagem{
+    border-radius: 8px 8px 0 0;
+    background-position: center;
+    background-size: cover;
 
-  &__coracao{
-    position: absolute;
-    right: 16px;
-    top: 16px;
-    svg{
-      fill: $primary-color;
+    
+    height: 200px;
+    position: relative;
+
+    &__coracao{
+      position: absolute;
+      right: 16px;
+      top: 16px;
+      svg{
+        fill: #fff;
+      }
     }
   }
-  &__favorites{
-    position: absolute;
-    bottom: 16px;
-    left: 16px;
-  }
-  &__comentarios{
-    position: absolute;
-    right: 16px;
-    bottom: 10px;
+  &__opcoes{
     display: flex;
-    color: $primary-color;
-    svg{
-      fill: $primary-color;
+    align-items: center;
+    padding: 4px 8px; //4px 4px
+    border: 1px solid;
+    border-radius: 0px 0px 8px 8px;
+    border-top: none;
+
+    &__comentarios{
+      display: flex;
+      color: #000;
+      flex-grow: 1;
+      svg{
+        fill: #000;
+      }
+    }
+    &__favorites{
+      width: 40%;
+    }
+    &__perfil{
+      margin-right: 4px;
     }
   }
 }

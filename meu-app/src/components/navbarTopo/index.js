@@ -19,7 +19,7 @@ function NavBarTopo(){
                             </div>
                         </li>
                         <li className="barraTopo__item">
-                            <div className="fotoPerfil"></div>
+                            <div className="fotoPerfil" style={{backgroundImage: `url('https://github.com/alexRicc2.png')`}}></div>
                         </li>
                     </ul>
                     <BarraLista ativo={0}/>
