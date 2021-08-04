@@ -1,5 +1,5 @@
 .navBarTopo {
-  background-color: #095739;
+  background-color: #ff0000;
   position: fixed;
   width: 100%;
   top: 0;
@@ -53,7 +53,7 @@
 }
 
 .campoPesquisa .icone {
-  fill: #095739;
+  fill: #ff0000;
 }
 
 .fotoPerfil {
@@ -167,7 +167,7 @@
 }
 
 .navbarBottom__icones {
-  fill: #095739;
+  fill: #ff0000;
   width: 32px;
   height: 32px;
 }
